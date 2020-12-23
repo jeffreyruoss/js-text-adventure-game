@@ -1,0 +1,30 @@
+{
+    "frames": [
+        {
+            "ID": "1",
+            "text": "You wake up in a dark dungeon... of course.",
+            "continue": true
+        },
+        {
+            "ID": "2",
+            "text": "You don't remember who you are or how you got here.",
+            "instruction": "Type your action",
+            "choices": { 
+                "look": {"goToFrame": "3"},
+                "meditate": {"goToFrame": "4"}
+            }
+        },
+        {
+            "ID": "3",
+            "text": "You look around"
+        },
+        {
+            "ID": "4",
+            "text": "You meditate. You feel you energy gather within you.",
+            "adjustStats": [
+                {"addMana": "5"},
+                {"addHealth": "1"}
+            ]
+        }
+    ]
+}

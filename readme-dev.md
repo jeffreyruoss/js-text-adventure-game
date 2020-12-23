@@ -1,5 +1,9 @@
 # TODO
 
+JS auto-scroll to the bottom after loadFrame()
+
+fancey custom scroll bar?
+
 Set up babel
 
 Multi-paragraph

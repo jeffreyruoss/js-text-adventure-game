@@ -140,9 +140,10 @@ document.addEventListener('keydown', function(e) {
         }
         // else if choices
         else if (game.currentFrameObj.choices) {
-          let option = game.currentFrameObj.choices[prompt.value];
+          let input = prompt.value.toLowerCase();
+          let choice = game.currentFrameObj.choices[input];
+          loadFrame(choice.goToFrame);
           prompt.value = '';
-          loadFrame(option.goToFrame);
         }
     }
 });

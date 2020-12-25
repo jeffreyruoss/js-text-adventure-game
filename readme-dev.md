@@ -6,8 +6,6 @@ fancey custom scroll bar?
 
 Set up babel
 
-Multi-paragraph
-
 JSON CMS
 
 

@@ -95,7 +95,10 @@ function loadFrame(frameId) {
 
   // text
   let text = game.currentFrameObj.text;
-  frameDiv.innerHTML = `<p>${text}</p>`;
+  text = text.split('\r');
+  text.forEach((paragraph) => {
+    frameDiv.innerHTML += `<p>${paragraph}</p>`;
+  });
 
   // continue
   if (game.currentFrameObj.continue) {

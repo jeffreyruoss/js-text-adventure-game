@@ -27,9 +27,7 @@ pre {
 .frame *:last-child {
   margin-bottom: 0;
 }
-.frame p {
-  margin: 0;
-}
+
 .prompt {
   border-radius: 5px;
   padding: 15px;
@@ -46,6 +44,7 @@ pre {
 }
 .continue,
 .instruction {
+  margin-bottom: 0;
   font-style: italic;
   font-weight: 100;
   font-size: 16px;

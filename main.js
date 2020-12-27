@@ -5,12 +5,12 @@
  */
 console.info('%c Kingdoms of Ru', 'font-size: 13px; color: #15d640;');
 
-const devMode = true;
+const devMode = false;
 let startingFrame;
 
 if (devMode) {
   console.log('%c DEV MODE: TRUE', 'color: red');
-  startingFrame = '2';
+  startingFrame = '1';
 }
 
 

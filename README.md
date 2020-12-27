@@ -1,9 +1,10 @@
 # JS Text Adventure Game
 JavaScript text-based adventure game from scratch.
+
 https://github.com/jeffreyruoss/js-text-adventure-game
 
 ## TODO
-See the github project
+https://github.com/jeffreyruoss/js-text-adventure-game/projects/1
 
 ## Notes
 Use \r in scene-01.json frames "text" for multiple paragraphs

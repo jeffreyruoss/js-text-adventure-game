@@ -1,8 +1,13 @@
 # JS Text Adventure Game
 JavaScript text-based adventure game from scratch.
 
-#### Production site 
+#### Production site
+
+GAME 
 https://jeffreyruoss.github.io/js-text-adventure-game/
+
+EDITOR
+https://jeffreyruoss.github.io/js-text-adventure-game/editor/
 
 #### Repo
 https://github.com/jeffreyruoss/js-text-adventure-game
